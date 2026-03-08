@@ -58,6 +58,13 @@ export default function Home() {
             <div className="border border-zinc-800 rounded-2xl p-6 bg-zinc-950">
               <h4 className="text-xl font-semibold mb-2">
                 AI WhatsApp Automation Agent
+                <a
+  href="https://github.com/paulakar/ai-whatsapp-agent"
+  target="_blank"
+  className="text-blue-400 underline"
+>
+  View on GitHub
+</a>
               </h4>
               <p className="text-zinc-400 mb-4">
                 Automated conversational workflow using n8n, APIs, webhooks and
