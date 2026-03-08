@@ -43,46 +43,76 @@ export default function Home() {
 
           <div className="grid gap-6">
             <div className="border border-zinc-800 rounded-2xl p-6 bg-zinc-950">
-              <h4 className="text-xl font-semibold mb-2">
+              <h4 className="text-xl font-semibold mb-3">
                 Reservalo — SaaS Booking Platform
               </h4>
+
               <p className="text-zinc-400 mb-4">
                 Reservation management platform with authentication, backend
                 APIs and PostgreSQL database.
               </p>
+
+              <div className="flex gap-4 mb-4">
+                <a
+                  href="https://mireserva.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 underline"
+                >
+                  Live App
+                </a>
+
+                <a
+                  href="https://github.com/paulakar/reservalo-saas"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 underline"
+                >
+                  View on GitHub
+                </a>
+              </div>
+
               <p className="text-sm text-zinc-500">
                 Node.js · Express · PostgreSQL · Google Auth
               </p>
             </div>
 
             <div className="border border-zinc-800 rounded-2xl p-6 bg-zinc-950">
-              <h4 className="text-xl font-semibold mb-2">
+              <h4 className="text-xl font-semibold mb-3">
                 AI WhatsApp Automation Agent
-                <a
-  href="https://github.com/paulakar/ai-whatsapp-agent"
-  target="_blank"
-  className="text-blue-400 underline"
->
-  View on GitHub
-</a>
               </h4>
+
               <p className="text-zinc-400 mb-4">
                 Automated conversational workflow using n8n, APIs, webhooks and
                 AI-generated responses.
               </p>
+
+              <div className="flex gap-4 mb-4">
+                <a
+                  href="https://github.com/paulakar/ai-whatsapp-agent"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 underline"
+                >
+                  View on GitHub
+                </a>
+              </div>
+
               <p className="text-sm text-zinc-500">
                 n8n · APIs · Webhooks · AI Integration
               </p>
             </div>
 
             <div className="border border-zinc-800 rounded-2xl p-6 bg-zinc-950">
-              <h4 className="text-xl font-semibold mb-2">
+              <h4 className="text-xl font-semibold mb-3">
                 Backend API Platform
               </h4>
+
               <p className="text-zinc-400 mb-4">
                 REST API with authentication, business logic and PostgreSQL
                 integration.
               </p>
+
               <p className="text-sm text-zinc-500">
                 Node.js · Express · REST API · PostgreSQL
               </p>
