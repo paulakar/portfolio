@@ -120,10 +120,31 @@ export default function Home() {
           </div>
         </section>
 
-        <section>
-          <h3 className="text-2xl font-semibold mb-4">Contact</h3>
-          <p className="text-zinc-400">GitHub · LinkedIn · Email</p>
-        </section>
+       <section>
+  <h3 className="text-2xl font-semibold mb-4">Contact</h3>
+
+  <div className="flex gap-6 text-blue-400 underline">
+    <a
+      href="https://github.com/paulakar"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      GitHub
+    </a>
+
+    <a
+      href="https://www.linkedin.com/in/paula-karlen-162b4982/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      LinkedIn
+    </a>
+
+    <a href="mailto:paula.kc@gmail.com">
+      Email
+    </a>
+  </div>
+</section>
       </section>
     </main>
   );
