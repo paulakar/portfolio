@@ -42,17 +42,19 @@ export default function Home() {
           <h3 className="text-2xl font-semibold mb-6">Featured Projects</h3>
 
           <div className="grid gap-6">
+
+            {/* Reservalo */}
             <div className="border border-zinc-800 rounded-2xl p-6 bg-zinc-950">
-              <h4 className="text-xl font-semibold mb-3">
+              <h4 className="text-xl font-semibold mb-2">
                 Reservalo — SaaS Booking Platform
               </h4>
 
               <p className="text-zinc-400 mb-4">
-                Reservation management platform with authentication, backend
-                APIs and PostgreSQL database.
+                Reservation management platform with authentication,
+                backend APIs and PostgreSQL database.
               </p>
 
-              <div className="flex gap-4 mb-4">
+              <div className="flex gap-6 mb-4">
                 <a
                   href="https://mireserva.app"
                   target="_blank"
@@ -77,17 +79,18 @@ export default function Home() {
               </p>
             </div>
 
+            {/* AI Agent */}
             <div className="border border-zinc-800 rounded-2xl p-6 bg-zinc-950">
-              <h4 className="text-xl font-semibold mb-3">
+              <h4 className="text-xl font-semibold mb-2">
                 AI WhatsApp Automation Agent
               </h4>
 
               <p className="text-zinc-400 mb-4">
-                Automated conversational workflow using n8n, APIs, webhooks and
-                AI-generated responses.
+                Automated conversational workflow using n8n, APIs, webhooks
+                and AI-generated responses.
               </p>
 
-              <div className="flex gap-4 mb-4">
+              <div className="flex gap-6 mb-4">
                 <a
                   href="https://github.com/paulakar/ai-whatsapp-agent"
                   target="_blank"
@@ -103,8 +106,9 @@ export default function Home() {
               </p>
             </div>
 
+            {/* Backend API */}
             <div className="border border-zinc-800 rounded-2xl p-6 bg-zinc-950">
-              <h4 className="text-xl font-semibold mb-3">
+              <h4 className="text-xl font-semibold mb-2">
                 Backend API Platform
               </h4>
 
@@ -117,34 +121,37 @@ export default function Home() {
                 Node.js · Express · REST API · PostgreSQL
               </p>
             </div>
+
           </div>
         </section>
 
-       <section>
-  <h3 className="text-2xl font-semibold mb-4">Contact</h3>
+        {/* Contact */}
+        <section>
+          <h3 className="text-2xl font-semibold mb-4">Contact</h3>
 
-  <div className="flex gap-6 text-blue-400 underline">
-    <a
-      href="https://github.com/paulakar"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      GitHub
-    </a>
+          <div className="flex gap-6 text-blue-400 underline">
+            <a
+              href="https://github.com/paulakar"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
 
-    <a
-      href="https://www.linkedin.com/in/paula-karlen-162b4982/"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      LinkedIn
-    </a>
+            <a
+              href="https://www.linkedin.com/in/paula-karlen-162b4982/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </a>
 
-    <a href="mailto:paula.kc@gmail.com">
-      Email
-    </a>
-  </div>
-</section>
+            <a href="mailto:tu-email@ejemplo.com">
+              Email
+            </a>
+          </div>
+        </section>
+
       </section>
     </main>
   );
